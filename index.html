@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/logo.png"
+    />
+
+    <title>Ritwik Ranjeet | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @font-face {
+        font-family: "Inter";
+        src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+        align-content: center;
+        justify-items: center;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        background-color: hsl(0, 0%, 8%);
+      }
+
+      .profile-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        background: hsl(0, 0%, 12%);
+        padding: 2rem 2rem;
+        align-content: center;
+        justify-items: center;
+        border: 2px solid hsl(0, 0%, 12%);
+        border-radius: 0.6rem;
+      }
+
+      .profile-img {
+        height: 6rem;
+        border-radius: 50%;
+        margin-bottom: 0.5rem;
+      }
+
+      .profile-name {
+        font-size: 1.8rem;
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+      }
+
+      .profile-place {
+        color: hsl(75, 94%, 57%);
+        font-size: 1rem;
+        font-weight: 700;
+        margin-top: 0.45rem;
+      }
+
+      .profile-job {
+        color: hsl(0, 0%, 100%);
+        font-size: 0.9rem;
+        margin-top: 1.25rem;
+        font-weight: 200;
+      }
+
+      .social-links {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        justify-items: stretch;
+        row-gap: 1.25rem;
+      }
+
+      .social-link:link,
+      .social-link:visited {
+        display: inline-block;
+        padding: 0.65rem 5rem;
+        align-content: center;
+        color: hsl(0, 0%, 100%);
+        text-decoration: none;
+        background-color: hsl(0, 0%, 20%);
+        font-size: 0.8rem;
+        border-radius: 0.25rem;
+        text-align: center;
+        font-weight: 600;
+        transition: all 300ms;
+      }
+
+      .social-link:first-child,
+      .social-link:first-child:visited {
+        margin-top: 1.25rem;
+      }
+
+      .social-link:hover,
+      .social-link:focus-visible {
+        color: hsl(0, 0%, 20%);
+        background-color: hsl(75, 94%, 57%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-container">
+      <img
+        class="profile-img"
+        src="assets/images/PPRR.jpg"
+        alt="Ritwik Ranjeet"
+      />
+      <h1 class="profile-name">Ritwik Ranjeet</h1>
+      <h2 class="profile-place">Hyderabad, India</h2>
+      <p class="profile-job">"Student and Front-end developer"</p>
+      <div class="social-links">
+        <a
+          href="https://github.com/RitwikRanjeet-dev "
+          class="social-link"
+          target="_blank"
+          >GitHub</a
+        >
+        <a
+          href="https://www.frontendmentor.io/profile/RitwikRanjeet-dev"
+          class="social-link"
+          target="_blank"
+          >Frontend Mentor</a
+        >
+        <a
+          href="https://www.threads.net/@dark.mate24"
+          target="_blank"
+          class="social-link"
+          >Threads</a
+        >
+        <a
+          href="https://x.com/ranjeet_ritwik"
+          target="_blank"
+          class="social-link"
+          >Twitter</a
+        >
+        <a
+          href="https://www.instagram.com/dark.mate24"
+          target="_blank"
+          class="social-link"
+          >Instagram</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
